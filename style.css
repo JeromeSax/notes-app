@@ -16,6 +16,7 @@ body {
 .add {
     position: fixed;
     top: 1rem;
+    right: ;
     background-color: yellowgreen;
     color: white;
     border: none;
@@ -33,4 +34,8 @@ body {
 
 .note .tools button {
     background-color: ;
+}
+
+.note textarea {
+    
 }
