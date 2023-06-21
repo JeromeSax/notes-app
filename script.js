@@ -20,7 +20,7 @@ const controlNote = (text = ' ') => {
     const deleteBtn = note.querySelector('.delete');
     const editBtn = note.querySelector('.edit');
     const main = note.querySelector('.main');
-    const textArea = note.querySelector('textarea');
+    const textArea = note.querySelector('textArea');
 
     textArea.value = text;
     main.innerHTML = text;
