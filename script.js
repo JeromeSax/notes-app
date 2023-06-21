@@ -44,3 +44,18 @@ const controlNote = (text = ' ') => {
 
     document.body.appendChild(note)
 }     
+
+// localStorage.setItem('name', 'Jerome');
+// localStorage.getItem('name');
+// localStorage.removeItem('name');
+
+// function updateLS() {
+//     const notesText = document.querySelector
+
+//     const notes = [];
+
+//     notesText.forEach(note => notes.push(notes.value))
+
+    // console.log(notes, notesText);
+
+// }
