@@ -20,7 +20,7 @@ const controlNote = (text = ' ') => {
     const deleteBtn = note.querySelector('.delete');
     const editBtn = note.querySelector('.edit');
     const main = note.querySelector('.main');
-    const textArea = note.querySelector('textArea');
+    const textArea = note.querySelector('textarea');
 
     textArea.value = text;
     main.innerHTML = text;
@@ -33,6 +33,12 @@ const controlNote = (text = ' ') => {
     editBtn.addEventListener('click', () => {
         main.classList.toggle('hidden');
         textArea.classList.toggle('hidden')
+    })
+
+    textArea.addEventListener('input', (e)=> {
+        const value = e.target.value;
+        console.log(value);
+        main.innerHTML = value;
     })
 
 
