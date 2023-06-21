@@ -21,5 +21,12 @@ function addNewNote() {
     <textarea></textarea>
     `;
 
+    // delete button
+    const deleteBtn = note.querySelector('.delete')
+    // delete function
+    deleteBtn.addEventListener('click', ()=> {
+        note.remove();
+    })
+
     document.body.appendChild(note);
 }    
