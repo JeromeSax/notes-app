@@ -37,7 +37,7 @@ const controlNote = (text = ' ') => {
 
     textArea.addEventListener('input', (e)=> {
         const value = e.target.value;
-        console.log(value);
+        // console.log(value);
         main.innerHTML = value;
     })
 
